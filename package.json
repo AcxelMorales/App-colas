@@ -1,0 +1,19 @@
+{
+    "name": "08-socket-colas",
+    "version": "1.0.0",
+    "description": "conceptos básicos de los sockets",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon server/server.js -e js, html",
+        "start": "node server/server.js"
+    },
+    "author": "Acxel Morales",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.16.4",
+        "socket.io": "^2.2.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.10"
+    }
+}
